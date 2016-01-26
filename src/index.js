@@ -1,12 +1,27 @@
 var uniqueRandomArray = require('unique-random-array');
 
-var allQuotes = require('./quotes/all.json');
 var michaelQuotes = require('./quotes/michael.json');
 var dwightQuotes = require('./quotes/dwight.json');
+var jimQuotes = require('./quotes/jim.json');
+
+var allQuotes = [
+    michaelQuotes,
+    dwightQuotes,
+    jimQuotes
+];
+
+var combineQuotes = function(quotes) {
+    var newArray = [];
+    quotes.forEach(function(quote) {
+        newArray.push(quote);
+    });
+    return newArray;
+};
 
 module.exports = {
-    all: allQuotes,
+    all: combineQuotes(allQuotes),
     michael: michaelQuotes,
     dwight: dwightQuotes,
-    random: uniqueRandomArray(allQuotes)    
+    jim: jimQuotes,
+    random: uniqueRandomArray(allQuotes)
 };
