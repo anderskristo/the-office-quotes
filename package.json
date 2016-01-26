@@ -1,0 +1,28 @@
+{
+  "name": "the-office-quotes",
+  "version": "1.0.0",
+  "description": "Lists quotes from the TV Show The Office",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderskristo/the-office-quotes.git"
+  },
+  "keywords": [
+    "random",
+    "quotes",
+    "theoffice",
+    "dwight"
+  ],
+  "author": "Anders Kristoffersson <anderskristo@gmail.com> (http://anderskristo.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anderskristo/the-office-quotes/issues"
+  },
+  "homepage": "https://github.com/anderskristo/the-office-quotes#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
