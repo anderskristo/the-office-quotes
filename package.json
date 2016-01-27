@@ -1,6 +1,6 @@
 {
   "name": "the-office-quotes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lists quotes from the TV Show The Office",
   "main": "src/index.js",
   "scripts": {
